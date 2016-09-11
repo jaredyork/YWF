@@ -1,0 +1,48 @@
+/* Remove padding to html and body elements */
+html, body
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Main containers */
+/* Globally used fonts can be overriden here in the site.css file */
+.container-main
+{
+  text-align: center;
+}
+
+/* Page container that is centered align */
+.container-main > .container-page
+{
+  margin: auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* Headings */
+.heading-content-l
+{
+  font-size: 4em;
+}
+
+.heading-content-ml
+{
+  font-size: 3.66em;
+}
+
+.heading-content-m
+{
+  font-size: 2em;
+}
+
+.heading-content-ms
+{
+  font-size: 1.33em;
+}
+
+.heading-content-s
+{
+  font-size: 1em;
+}
+
